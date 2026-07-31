@@ -23,7 +23,7 @@ export default function Spotify() {
   };
 
   return (
-    <div className="w-full h-full bg-gradient-to-b from-[#4a1c1c] via-[#121212] to-[#121212] text-white flex flex-col px-6 py-8 relative">
+    <div className="w-full h-full bg-gradient-to-b from-[#4a1c1c] via-[#121212] to-[#121212] text-white flex flex-col px-6 pt-8 pb-32 relative">
       
       {/* Top Header */}
       <div className="flex items-center justify-between mb-8 z-10">

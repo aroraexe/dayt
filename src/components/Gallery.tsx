@@ -63,7 +63,7 @@ export default function Gallery() {
       animate={{ opacity: 1, backgroundColor: "#fdfdfa" }}
       exit={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 1.5, ease: "easeInOut" }}
-      className="absolute inset-0 w-full h-full text-black overflow-y-auto overflow-x-hidden"
+      className="absolute inset-0 w-full h-full text-black overflow-y-auto overflow-x-hidden pb-32"
     >
         <div className="max-w-7xl mx-auto px-4 py-20">
           

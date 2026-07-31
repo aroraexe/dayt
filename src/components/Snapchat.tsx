@@ -147,7 +147,7 @@ export default function Snapchat() {
       </motion.div>
 
       {/* Chat Area */}
-      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4 flex flex-col justify-end no-scrollbar bg-transparent">
+      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 pt-4 pb-32 flex flex-col justify-end no-scrollbar bg-transparent">
         <AnimatePresence>
           {chatSequence.slice(0, messages).map((msg, i) => (
             <motion.div

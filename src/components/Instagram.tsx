@@ -157,7 +157,7 @@ export default function Instagram() {
       </div>
 
       {/* Scrollable Feed */}
-      <div className="flex-1 overflow-y-auto pb-20 no-scrollbar relative z-0">
+      <div className="flex-1 overflow-y-auto pb-32 no-scrollbar relative z-0">
         {/* Stories Tray */}
         <div className="flex gap-4 px-3 py-3 overflow-x-auto border-b border-zinc-900 no-scrollbar">
           {[

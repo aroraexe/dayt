@@ -110,7 +110,7 @@ export default function Rave() {
       </div>
 
       {/* Chat Area */}
-      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4 flex flex-col bg-[#09090B] no-scrollbar">
+      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 pt-4 pb-32 flex flex-col bg-[#09090B] no-scrollbar">
         {chatSequence.slice(0, messages).map((msg, i) => (
           <RaveMessage key={i} text={msg.text} isMe={msg.isMe} username={msg.username} />
         ))}
