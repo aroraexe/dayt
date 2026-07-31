@@ -153,20 +153,17 @@ const Galaxy = () => {
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
-          array={positions}
-          itemSize={3}
+          args={[positions, 3]}
           count={parameters.count}
         />
         <bufferAttribute
           attach="attributes-color"
-          array={colors}
-          itemSize={3}
+          args={[colors, 3]}
           count={parameters.count}
         />
         <bufferAttribute
           attach="attributes-attrScale"
-          array={pointsScale}
-          itemSize={1}
+          args={[pointsScale, 1]}
           count={parameters.count}
         />
       </bufferGeometry>
